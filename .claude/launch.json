@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "live-server",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+      "runtimeArgs": ["C:\\Users\\jackh\\AppData\\Roaming\\npm\\node_modules\\live-server\\live-server.js", "--port=8765", "--no-browser"],
+      "port": 8765
+    }
+  ]
+}

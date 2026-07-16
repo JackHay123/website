@@ -3,39 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website</title>
+  <title>Independent CFI &mdash; Flight Training</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
+  <header class="site-header">
     <nav>
-      <div class="logo">Website</div>
+      <div class="logo">Independent CFI</div>
       <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="hero-content">
-      <h1>Welcome</h1>
-      <p>A simple homepage to get you started.</p>
-      <a class="cta" href="#about">Learn more</a>
-    </div>
   </header>
 
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Learn to Fly with a Dedicated Instructor</h1>
+      <p>Personalized flight and ground training built around your goals, your schedule, and your aircraft.</p>
+      <a class="cta" href="#services">Explore Training Programs</a>
+    </div>
+  </section>
+
   <main>
-    <section id="about">
+    <section id="about" class="about">
       <h2>About</h2>
-      <p>This is a placeholder section. Replace this text with information about your site or project.</p>
+      <div class="about-content">
+        <img src="aboutme.webp" alt="Portrait of the flight instructor" class="about-photo" width="800" height="1253" />
+        <div class="about-text">
+          <p>
+            I'm an independent Certified Flight Instructor offering flight and ground training tailored to
+            each pilot's experience level and goals. Whether you're working toward your first certificate,
+            adding a rating, or staying current, training is customized to how you learn best.
+          </p>
+          <p>
+            Instruction is available in your own aircraft (subject to type and insurance requirements) or
+            through a local flight school partner.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
+    <section id="services" class="services">
+      <h2>Training Programs</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Private</h3>
+          <p>
+            Earn your Private Pilot Certificate with structured lessons covering cross-country flying,
+            solo requirements, and checkride preparation.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Instrument</h3>
+          <p>
+            Build the skills and confidence to fly safely in the clouds, including approach procedures
+            and cross-country instrument experience.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Commercial</h3>
+          <p>
+            Advance toward a Commercial Pilot Certificate with focused training in complex aircraft and
+            long cross-country flights.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Flight Review</h3>
+          <p>
+            Stay current with a Flight Review tailored to the type of flying you do, combining ground
+            and flight instruction.
+          </p>
+        </div>
+        <div class="card">
+          <h3>IPC</h3>
+          <p>
+            Regain instrument currency with an Instrument Proficiency Check covering approaches, holds,
+            and unusual attitude recovery.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Other Services</h3>
+          <p>
+            Insurance checkouts, aircraft delivery trips, and endorsements for high-performance, complex,
+            or tailwheel aircraft.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
       <h2>Contact</h2>
-      <p>Get in touch at <a href="mailto:hello@example.com">hello@example.com</a>.</p>
+      <p>Ready to start training or have questions? Get in touch to discuss your goals.</p>
+      <a class="cta" href="mailto:hello@example.com">hello@example.com</a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100078907244951" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.89h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94Z"/>
+          </svg>
+        </a>
+        <span class="social-icon" aria-label="Instagram (coming soon)">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2c-2.72 0-3.06.01-4.12.06-1.06.05-1.79.22-2.43.47-.66.26-1.22.6-1.77 1.16-.56.55-.9 1.11-1.16 1.77-.25.64-.42 1.37-.47 2.43C2.01 8.94 2 9.28 2 12s.01 3.06.06 4.12c.05 1.06.22 1.79.47 2.43.26.66.6 1.22 1.16 1.77.55.56 1.11.9 1.77 1.16.64.25 1.37.42 2.43.47C8.94 21.99 9.28 22 12 22s3.06-.01 4.12-.06c1.06-.05 1.79-.22 2.43-.47.66-.26 1.22-.6 1.77-1.16.56-.55.9-1.11 1.16-1.77.25-.64.42-1.37.47-2.43.05-1.06.06-1.4.06-4.12s-.01-3.06-.06-4.12c-.05-1.06-.22-1.79-.47-2.43a4.9 4.9 0 0 0-1.16-1.77 4.9 4.9 0 0 0-1.77-1.16c-.64-.25-1.37-.42-2.43-.47C15.06 2.01 14.72 2 12 2Zm0 1.8c2.67 0 2.99.01 4.04.06.98.04 1.5.21 1.86.34.47.18.8.4 1.15.75.35.35.57.68.75 1.15.13.36.29.88.34 1.86.05 1.05.06 1.37.06 4.04s-.01 2.99-.06 4.04c-.05.98-.21 1.5-.34 1.86-.18.47-.4.8-.75 1.15-.35.35-.68.57-1.15.75-.36.13-.88.29-1.86.34-1.05.05-1.37.06-4.04.06s-2.99-.01-4.04-.06c-.98-.05-1.5-.21-1.86-.34a3.1 3.1 0 0 1-1.15-.75 3.1 3.1 0 0 1-.75-1.15c-.13-.36-.29-.88-.34-1.86-.05-1.05-.06-1.37-.06-4.04s.01-2.99.06-4.04c.05-.98.21-1.5.34-1.86.18-.47.4-.8.75-1.15.35-.35.68-.57 1.15-.75.36-.13.88-.29 1.86-.34C9.01 3.81 9.33 3.8 12 3.8Zm0 3.06a5.14 5.14 0 1 0 0 10.28 5.14 5.14 0 0 0 0-10.28Zm0 8.48a3.34 3.34 0 1 1 0-6.68 3.34 3.34 0 0 1 0 6.68Zm5.34-8.68a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z"/>
+          </svg>
+        </span>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Website. All rights reserved.</p>
+    <p>&copy; 2026 Independent CFI. All rights reserved.</p>
   </footer>
 </body>
 </html>
