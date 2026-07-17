@@ -63,6 +63,20 @@ nav {
   color: var(--orange);
 }
 
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1rem;
+  }
+}
+
 .hero {
   background:
     linear-gradient(135deg, rgba(3, 37, 57, 0.85), rgba(28, 118, 143, 0.75)),
