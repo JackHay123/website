@@ -40,10 +40,23 @@ nav {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: #fff;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.logo-mark {
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  margin-left: 0.65rem;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #fff;
+  white-space: nowrap;
 }
 
 .nav-links {
